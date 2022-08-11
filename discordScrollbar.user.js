@@ -6,6 +6,7 @@
 // @author       TechFlashes
 // @match        *://discord.com/channels/*
 // @downloadURL  https://github.com/techflashes/discordScrollBar/raw/master/discordScrollbar.user.js
+// @updateURL  https://github.com/techflashes/discordScrollBar/raw/master/discordScrollbar.user.js
 // @grant        none
 // ==/UserScript==
 
