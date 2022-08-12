@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Discord Scrollbar
 // @namespace    https://techflashes.pythonanywhere.com/
-// @version      0.2
+// @version      0.3
 // @description  Creates a scrollbar for the server list
 // @author       TechFlashes
 // @match        *://discord.com/channels/*
@@ -10,9 +10,7 @@
 // @grant        none
 // ==/UserScript==
 
-
 (function() {
-  
 const cssTemplateString = `
 .fixedScrollbar::-webkit-scrollbar {
     width: 8px !important;
@@ -31,6 +29,9 @@ const cssTemplateString = `
     border-color: transparent;
     background-color: transparent;
     border: 2px solid transparent;
+}
+.fixedScrollbar {
+    scrollbar-width: thin;
 }
 `;
 const styleTag = document.createElement("style");
